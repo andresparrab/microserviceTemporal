@@ -13,6 +13,7 @@ The microservice
 
 build an run the docke-compose
 run in the terminal:
+
 docker-compose up 
 
 To start the worker and workflow
