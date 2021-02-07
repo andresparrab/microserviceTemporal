@@ -1,4 +1,15 @@
 # microserviceTemporal
+Requirements:
+    Running temporal server on your computer:
+      https://docs.temporal.io/docs/server-quick-install/
+      
+      Short description:
+      git clone https://github.com/temporalio/docker-compose.git
+      cd  docker-compose
+      docker-compose up
+
+
+The microservice
 
 build an run the docke-compose
 run in the terminal:
