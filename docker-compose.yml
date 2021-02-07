@@ -1,0 +1,15 @@
+version: '3'
+services:
+  db:
+    network_mode: host
+    build:
+      context: ./MySQL
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: test
+      MYSQL_USER: mysql
+      MYSQL_PASSWORD: mysqlpassword
+    container_name: testSQL
+    tty: true
+
+
